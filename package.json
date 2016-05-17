@@ -1,0 +1,28 @@
+{
+  "name": "wh-questions",
+  "version": "0.0.1",
+  "description": "This module allows you to count the number of wh-questions in a given string or array.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhayibor/wh-questions.git"
+  },
+  "keywords": [
+    "wh-question",
+    "questions",
+    "asking"
+  ],
+  "author": "Mohamed Hayibor <mohamedhayibor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedhayibor/wh-questions/issues"
+  },
+  "homepage": "https://github.com/mohamedhayibor/wh-questions#readme",
+  "devDependencies": {
+    "ava": "^0.14.0"
+  }
+}
