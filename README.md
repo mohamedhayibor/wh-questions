@@ -1,6 +1,6 @@
 # wh-questions
 
-This module allows you to count the number of [wh-questions]((https://en.wikipedia.org/wiki/Question#wh)) in a given string (text) or array. Here, it specifically count for the key words: (what || where || how || why || who || when).
+This module allows you to count the number of [wh-questions](https://en.wikipedia.org/wiki/Question#wh) in a given string (text) or array. Here, it specifically count for the key words: (what || where || how || why || who || when).
 
 ## Installation
 ```
