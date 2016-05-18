@@ -1,6 +1,6 @@
 # wh-questions
 
-This module allows you to count the number of [wh-questions]((https://en.wikipedia.org/wiki/Question#wh)) in a given string or array. Here, it specifically count for the key words: (what || where || how || why || who || when).
+This module allows you to count the number of [wh-questions]((https://en.wikipedia.org/wiki/Question#wh)) in a given string (text) or array. Here, it specifically count for the key words: (what || where || how || why || who || when).
 
 ## Installation
 ```
@@ -9,8 +9,16 @@ This module allows you to count the number of [wh-questions]((https://en.wikiped
 ## Usage
 
 ```js
+import count from 'wh-questions'
+
+console.log(count('how what and where') ); // 3
+console.log(count(['how', 'How', 'what', 'where']) ); // 4
 
 ```
+## spec
+No api to mess with. Feed what's intended (string or array) and get your expected output (number).
+
+> No dependencies. few lines of codes.
 
 ## Related
 - [check-question npm package](https://github.com/mohamedhayibor/check-question)
