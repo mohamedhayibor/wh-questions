@@ -18,6 +18,8 @@ console.log(count(['how', 'How', 'what', 'where']) ); // 4
 ## spec
 No api to mess with. Feed what's intended (string or array) and get your expected output (number).
 
+Please note the counting fails if the wh-question is right next to a punctuation. (example: "what,")
+
 > No dependencies. few lines of codes.
 
 ## Related
